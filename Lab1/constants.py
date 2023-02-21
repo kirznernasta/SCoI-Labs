@@ -1,0 +1,4 @@
+ADD_OPERATOR = 'add'
+SUB_OPERATOR = 'sub'
+MULT_OPERATOR = 'mult'
+DIV_OPERATOR = 'div'
