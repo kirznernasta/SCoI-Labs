@@ -1,4 +1,4 @@
-from help_functioins import count_sentences
+from text_statistics import get_statistics
 
 if __name__ == '__main__':
-    print(count_sentences('Mr. first sentence. Second sentence.'))
+    get_statistics('/home/kirznernasta/scoi_test/task_1/file.txt')
