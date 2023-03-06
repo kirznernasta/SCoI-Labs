@@ -32,7 +32,7 @@ def calc_average_sentence_length(text: str):
 def calc_average_word_length(text: str):
     words = re.findall(WORD_PATTERN, text)
     words_len_in_characters = sum(len(word) for word in words)
-    return round(words_len_in_characters / len(words), 2)if len(words) != 0 else 0
+    return round(words_len_in_characters / len(words), 2) if len(words) != 0 else 0
 
 
 def calculate_top_k_repeated_n_grams(text: str, k=10, n=4):
